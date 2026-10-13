@@ -1,0 +1,19 @@
+.wedd-card{
+    border: 5px;
+    margin:60px auto ;
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 30px;
+    background-color:burlywood;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-decoration-style: dashed;
+    font-size: smaller;
+    text-align: center;
+    color: rgba(21, 19, 19, 0.692);
+}
+

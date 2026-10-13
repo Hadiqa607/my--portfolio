@@ -1,0 +1,60 @@
+<html>
+    <head>
+        <title>use of Position in html</title>
+        <style>
+           .reletive{
+            /*This is for big circle*/
+            position: relative;
+            top: 50px;
+            left: 410px;
+            border-radius:100px ;
+            border: 6px solid darkgray;
+            background-color: lightgray;
+            width:180px ;
+            height:190px ;
+             }
+
+             .reletive:hover{
+                box-shadow: 2px 1px 10px rgba(234, 61, 61,  1.05);
+                transform: scale(1.02);
+
+             }
+             .absolute{
+                /*This is for small circls*/
+                position: absolute;
+                right:455px ;
+                top:139px ;
+                bottom:300px;
+                border:3px solid brown  ;
+                background-color: rgb(159, 81, 81);
+                border-radius:100px ;
+                width:70px ;
+                height:70px ;
+             } 
+            .abso{
+                /*This is for very small circle*/
+                position: absolute;
+                right:500px ;
+                top:110px ;
+                bottom:330px ;
+                border:2px solid brown ;
+                border-radius:100px ;
+                background-color: rgb(159, 81,81);
+                width:10px ;
+                height:10px ;
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--Inline css is applied-->
+        <h1 style="text-transform: capitalize; text-decoration: underline; text-shadow:2px 2px rgb(41, 86, 86);"> i draw this three circles with the help of relative and absolute positions.</h1>
+        <!--enternal css is applied-->
+        <div class="reletive"></div>
+        <!--enternal css is applied-->
+        <div class="absolute"></div>
+        <!--enternal css is applied-->
+        <div class=" abso"></div>
+        
+    </body>
+</html>

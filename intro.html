@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <title>My Personal Portfolio Page</title>
+        <!--internal css is applied-->
+        <style>
+            .h1{
+                text-align: center;
+                text-decoration: underline;
+                color: brown;
+                font-size: larger;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .h2{
+               margin: 0px 200px;
+               font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+               padding:0px 250px ;
+                font-size: larger; 
+                text-decoration: underline;
+                color: rgb(59, 59, 135);
+               
+            }
+            /*universal grouping*/
+            div,h2,table{
+               font-size: medium;
+               font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+               color: lightseagreen;
+               margin: 5px 200px 5px;
+               padding: 0px 250px;
+            
+            }
+            button{
+               margin-left: 30px;
+               background-color: blue;
+               color: white;
+               padding:10px 20px ;
+               border: none;
+               border-radius: 5px;
+               font-size: 16px;
+            }
+            button:hover{
+               background-color: darkblue;
+            }
+        </style>
+    </head>
+    <body>
+        <!--INTERNAL CSS IS APPLIED-->
+        <h1 class="h1">Wellcome to My Personal Webpage</h1>
+        <!--inline css is applied-->
+        <P style="color: rgb(15, 80, 101); font-size: larger; font-family: Arial, Helvetica, sans-serif; text-align: center;" >MY Self Hadiqa</P>
+        <p style="color: rgb(15, 80, 101); font-size: larger; font-family: Arial, Helvetica, sans-serif; text-align: center;">I'm a Bioinformatics student</p>
+        <!--inline css is applied-->
+         <h2 class="h2" >List of My Hobbies </h2>
+         <!--inline css is applied-->
+         <ul style=" font-size: medium;  color: rgb(32, 32, 74);margin: 0px 220px 0px; padding: 0px 250px ;">
+            <li>Drawing or Sketching</li>
+            <li>Cooking</li>
+            <li>Learning web development</li>
+         </ul>
+         <!--enternal css is applied-->
+           <h2 class="h2">Weekly Schedule Table</h2>
+         <!--inline css is applied-->
+         <table style=" margin: 0px 400px; padding:0px;" border="5px width 700px">
+           <thead>
+            <th>Monday</th>
+            <th>Tuesday</th>
+            <th>Wednesday</th>
+           </thead>
+           <tbody>
+            <tr>
+               <td>Study HTML</td> 
+               <td>practice CSS</td>
+               <td>Watch Tutorials</td>
+            </tr>
+           </tbody>
+         </table>
+        <!--enternal css is applied with universal grouping--> 
+         <div>
+           <label for="fname"> Full name</label>
+           <input type="text" name="" id="fname" placeholder="enter your name">
+         </div>
+
+         <div>
+            <label for="Email">Email</label>
+            <input type="text" name="" id="Email" placeholder="enter Email">
+         </div>
+
+         <div>
+            <label for=" MS">Message</label>
+            <textarea name="" id=" MS"></textarea>
+         </div>
+
+         <div>
+            <form>
+           <button type="submit">Submit</button>
+           </form>
+         </div>
+         
+         <div>
+            <!--inline css is applied-->
+            <h3 style="color: rgb(94, 66, 120);">Media section</h3>
+            <h1 class="h1">Image</h1>
+            <img src="menu card.jpeg" alt="" width="180px height 0px">
+         </div>
+
+         <div>
+            <h1 class="h1">vedio</h1>
+         <video width="350px" src="my code .mp4" type=" vedio/mp4" controls autoplay> </video>
+         <h1 class="h1">Audio</h1>
+         <audio src="my audio.ogg" controls ></audio>
+         <br>
+         <h1 class="h1">Link</h1>
+         <a href="task9.html"> go to wedding card page</a>
+
+         </div>
+
+
+    </body>
+</html>
